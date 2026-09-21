@@ -1,0 +1,2002 @@
+[
+  {
+    "job_index": 1,
+    "job_id": "seed042_horizon01_STG_Informer",
+    "seed": 42,
+    "horizon": 1,
+    "model": "STG-Informer",
+    "script": "seed042_horizon01_stg_informer.py",
+    "output_directory": "STG_seed42_horizon1",
+    "command": "python seed042_horizon01_stg_informer.py"
+  },
+  {
+    "job_index": 2,
+    "job_id": "seed042_horizon01_G_Informer",
+    "seed": 42,
+    "horizon": 1,
+    "model": "G-Informer",
+    "script": "seed042_horizon01_g_informer.py",
+    "output_directory": "G_seed42_horizon1",
+    "command": "python seed042_horizon01_g_informer.py"
+  },
+  {
+    "job_index": 3,
+    "job_id": "seed042_horizon01_ST_Informer",
+    "seed": 42,
+    "horizon": 1,
+    "model": "ST-Informer",
+    "script": "seed042_horizon01_st_informer.py",
+    "output_directory": "ST_seed42_horizon1",
+    "command": "python seed042_horizon01_st_informer.py"
+  },
+  {
+    "job_index": 4,
+    "job_id": "seed042_horizon01_Informer",
+    "seed": 42,
+    "horizon": 1,
+    "model": "Informer",
+    "script": "seed042_horizon01_informer.py",
+    "output_directory": "Informer_seed42_horizon1",
+    "command": "python seed042_horizon01_informer.py"
+  },
+  {
+    "job_index": 5,
+    "job_id": "seed042_horizon01_GRU",
+    "seed": 42,
+    "horizon": 1,
+    "model": "GRU",
+    "script": "seed042_horizon01_gru.py",
+    "output_directory": "GRU_seed42_horizon1",
+    "command": "python seed042_horizon01_gru.py"
+  },
+  {
+    "job_index": 6,
+    "job_id": "seed042_horizon01_Transformer",
+    "seed": 42,
+    "horizon": 1,
+    "model": "Transformer",
+    "script": "seed042_horizon01_transformer.py",
+    "output_directory": "Transformer_seed42_horizon1",
+    "command": "python seed042_horizon01_transformer.py"
+  },
+  {
+    "job_index": 7,
+    "job_id": "seed042_horizon01_ConvLSTM",
+    "seed": 42,
+    "horizon": 1,
+    "model": "ConvLSTM",
+    "script": "seed042_horizon01_convlstm.py",
+    "output_directory": "ConvLSTM_seed42_horizon1",
+    "command": "python seed042_horizon01_convlstm.py"
+  },
+  {
+    "job_index": 8,
+    "job_id": "seed042_horizon01_CNN_LSTM",
+    "seed": 42,
+    "horizon": 1,
+    "model": "CNN-LSTM",
+    "script": "seed042_horizon01_cnn_lstm.py",
+    "output_directory": "CNN-LSTM_seed42_horizon1",
+    "command": "python seed042_horizon01_cnn_lstm.py"
+  },
+  {
+    "job_index": 9,
+    "job_id": "seed042_horizon03_STG_Informer",
+    "seed": 42,
+    "horizon": 3,
+    "model": "STG-Informer",
+    "script": "seed042_horizon03_stg_informer.py",
+    "output_directory": "STG_seed42_horizon3",
+    "command": "python seed042_horizon03_stg_informer.py"
+  },
+  {
+    "job_index": 10,
+    "job_id": "seed042_horizon03_G_Informer",
+    "seed": 42,
+    "horizon": 3,
+    "model": "G-Informer",
+    "script": "seed042_horizon03_g_informer.py",
+    "output_directory": "G_seed42_horizon3",
+    "command": "python seed042_horizon03_g_informer.py"
+  },
+  {
+    "job_index": 11,
+    "job_id": "seed042_horizon03_ST_Informer",
+    "seed": 42,
+    "horizon": 3,
+    "model": "ST-Informer",
+    "script": "seed042_horizon03_st_informer.py",
+    "output_directory": "ST_seed42_horizon3",
+    "command": "python seed042_horizon03_st_informer.py"
+  },
+  {
+    "job_index": 12,
+    "job_id": "seed042_horizon03_Informer",
+    "seed": 42,
+    "horizon": 3,
+    "model": "Informer",
+    "script": "seed042_horizon03_informer.py",
+    "output_directory": "Informer_seed42_horizon3",
+    "command": "python seed042_horizon03_informer.py"
+  },
+  {
+    "job_index": 13,
+    "job_id": "seed042_horizon03_GRU",
+    "seed": 42,
+    "horizon": 3,
+    "model": "GRU",
+    "script": "seed042_horizon03_gru.py",
+    "output_directory": "GRU_seed42_horizon3",
+    "command": "python seed042_horizon03_gru.py"
+  },
+  {
+    "job_index": 14,
+    "job_id": "seed042_horizon03_Transformer",
+    "seed": 42,
+    "horizon": 3,
+    "model": "Transformer",
+    "script": "seed042_horizon03_transformer.py",
+    "output_directory": "Transformer_seed42_horizon3",
+    "command": "python seed042_horizon03_transformer.py"
+  },
+  {
+    "job_index": 15,
+    "job_id": "seed042_horizon03_ConvLSTM",
+    "seed": 42,
+    "horizon": 3,
+    "model": "ConvLSTM",
+    "script": "seed042_horizon03_convlstm.py",
+    "output_directory": "ConvLSTM_seed42_horizon3",
+    "command": "python seed042_horizon03_convlstm.py"
+  },
+  {
+    "job_index": 16,
+    "job_id": "seed042_horizon03_CNN_LSTM",
+    "seed": 42,
+    "horizon": 3,
+    "model": "CNN-LSTM",
+    "script": "seed042_horizon03_cnn_lstm.py",
+    "output_directory": "CNN-LSTM_seed42_horizon3",
+    "command": "python seed042_horizon03_cnn_lstm.py"
+  },
+  {
+    "job_index": 17,
+    "job_id": "seed042_horizon06_STG_Informer",
+    "seed": 42,
+    "horizon": 6,
+    "model": "STG-Informer",
+    "script": "seed042_horizon06_stg_informer.py",
+    "output_directory": "STG_seed42_horizon6",
+    "command": "python seed042_horizon06_stg_informer.py"
+  },
+  {
+    "job_index": 18,
+    "job_id": "seed042_horizon06_G_Informer",
+    "seed": 42,
+    "horizon": 6,
+    "model": "G-Informer",
+    "script": "seed042_horizon06_g_informer.py",
+    "output_directory": "G_seed42_horizon6",
+    "command": "python seed042_horizon06_g_informer.py"
+  },
+  {
+    "job_index": 19,
+    "job_id": "seed042_horizon06_ST_Informer",
+    "seed": 42,
+    "horizon": 6,
+    "model": "ST-Informer",
+    "script": "seed042_horizon06_st_informer.py",
+    "output_directory": "ST_seed42_horizon6",
+    "command": "python seed042_horizon06_st_informer.py"
+  },
+  {
+    "job_index": 20,
+    "job_id": "seed042_horizon06_Informer",
+    "seed": 42,
+    "horizon": 6,
+    "model": "Informer",
+    "script": "seed042_horizon06_informer.py",
+    "output_directory": "Informer_seed42_horizon6",
+    "command": "python seed042_horizon06_informer.py"
+  },
+  {
+    "job_index": 21,
+    "job_id": "seed042_horizon06_GRU",
+    "seed": 42,
+    "horizon": 6,
+    "model": "GRU",
+    "script": "seed042_horizon06_gru.py",
+    "output_directory": "GRU_seed42_horizon6",
+    "command": "python seed042_horizon06_gru.py"
+  },
+  {
+    "job_index": 22,
+    "job_id": "seed042_horizon06_Transformer",
+    "seed": 42,
+    "horizon": 6,
+    "model": "Transformer",
+    "script": "seed042_horizon06_transformer.py",
+    "output_directory": "Transformer_seed42_horizon6",
+    "command": "python seed042_horizon06_transformer.py"
+  },
+  {
+    "job_index": 23,
+    "job_id": "seed042_horizon06_ConvLSTM",
+    "seed": 42,
+    "horizon": 6,
+    "model": "ConvLSTM",
+    "script": "seed042_horizon06_convlstm.py",
+    "output_directory": "ConvLSTM_seed42_horizon6",
+    "command": "python seed042_horizon06_convlstm.py"
+  },
+  {
+    "job_index": 24,
+    "job_id": "seed042_horizon06_CNN_LSTM",
+    "seed": 42,
+    "horizon": 6,
+    "model": "CNN-LSTM",
+    "script": "seed042_horizon06_cnn_lstm.py",
+    "output_directory": "CNN-LSTM_seed42_horizon6",
+    "command": "python seed042_horizon06_cnn_lstm.py"
+  },
+  {
+    "job_index": 25,
+    "job_id": "seed042_horizon09_STG_Informer",
+    "seed": 42,
+    "horizon": 9,
+    "model": "STG-Informer",
+    "script": "seed042_horizon09_stg_informer.py",
+    "output_directory": "STG_seed42_horizon9",
+    "command": "python seed042_horizon09_stg_informer.py"
+  },
+  {
+    "job_index": 26,
+    "job_id": "seed042_horizon09_G_Informer",
+    "seed": 42,
+    "horizon": 9,
+    "model": "G-Informer",
+    "script": "seed042_horizon09_g_informer.py",
+    "output_directory": "G_seed42_horizon9",
+    "command": "python seed042_horizon09_g_informer.py"
+  },
+  {
+    "job_index": 27,
+    "job_id": "seed042_horizon09_ST_Informer",
+    "seed": 42,
+    "horizon": 9,
+    "model": "ST-Informer",
+    "script": "seed042_horizon09_st_informer.py",
+    "output_directory": "ST_seed42_horizon9",
+    "command": "python seed042_horizon09_st_informer.py"
+  },
+  {
+    "job_index": 28,
+    "job_id": "seed042_horizon09_Informer",
+    "seed": 42,
+    "horizon": 9,
+    "model": "Informer",
+    "script": "seed042_horizon09_informer.py",
+    "output_directory": "Informer_seed42_horizon9",
+    "command": "python seed042_horizon09_informer.py"
+  },
+  {
+    "job_index": 29,
+    "job_id": "seed042_horizon09_GRU",
+    "seed": 42,
+    "horizon": 9,
+    "model": "GRU",
+    "script": "seed042_horizon09_gru.py",
+    "output_directory": "GRU_seed42_horizon9",
+    "command": "python seed042_horizon09_gru.py"
+  },
+  {
+    "job_index": 30,
+    "job_id": "seed042_horizon09_Transformer",
+    "seed": 42,
+    "horizon": 9,
+    "model": "Transformer",
+    "script": "seed042_horizon09_transformer.py",
+    "output_directory": "Transformer_seed42_horizon9",
+    "command": "python seed042_horizon09_transformer.py"
+  },
+  {
+    "job_index": 31,
+    "job_id": "seed042_horizon09_ConvLSTM",
+    "seed": 42,
+    "horizon": 9,
+    "model": "ConvLSTM",
+    "script": "seed042_horizon09_convlstm.py",
+    "output_directory": "ConvLSTM_seed42_horizon9",
+    "command": "python seed042_horizon09_convlstm.py"
+  },
+  {
+    "job_index": 32,
+    "job_id": "seed042_horizon09_CNN_LSTM",
+    "seed": 42,
+    "horizon": 9,
+    "model": "CNN-LSTM",
+    "script": "seed042_horizon09_cnn_lstm.py",
+    "output_directory": "CNN-LSTM_seed42_horizon9",
+    "command": "python seed042_horizon09_cnn_lstm.py"
+  },
+  {
+    "job_index": 33,
+    "job_id": "seed042_horizon12_STG_Informer",
+    "seed": 42,
+    "horizon": 12,
+    "model": "STG-Informer",
+    "script": "seed042_horizon12_stg_informer.py",
+    "output_directory": "STG_seed42_horizon12",
+    "command": "python seed042_horizon12_stg_informer.py"
+  },
+  {
+    "job_index": 34,
+    "job_id": "seed042_horizon12_G_Informer",
+    "seed": 42,
+    "horizon": 12,
+    "model": "G-Informer",
+    "script": "seed042_horizon12_g_informer.py",
+    "output_directory": "G_seed42_horizon12",
+    "command": "python seed042_horizon12_g_informer.py"
+  },
+  {
+    "job_index": 35,
+    "job_id": "seed042_horizon12_ST_Informer",
+    "seed": 42,
+    "horizon": 12,
+    "model": "ST-Informer",
+    "script": "seed042_horizon12_st_informer.py",
+    "output_directory": "ST_seed42_horizon12",
+    "command": "python seed042_horizon12_st_informer.py"
+  },
+  {
+    "job_index": 36,
+    "job_id": "seed042_horizon12_Informer",
+    "seed": 42,
+    "horizon": 12,
+    "model": "Informer",
+    "script": "seed042_horizon12_informer.py",
+    "output_directory": "Informer_seed42_horizon12",
+    "command": "python seed042_horizon12_informer.py"
+  },
+  {
+    "job_index": 37,
+    "job_id": "seed042_horizon12_GRU",
+    "seed": 42,
+    "horizon": 12,
+    "model": "GRU",
+    "script": "seed042_horizon12_gru.py",
+    "output_directory": "GRU_seed42_horizon12",
+    "command": "python seed042_horizon12_gru.py"
+  },
+  {
+    "job_index": 38,
+    "job_id": "seed042_horizon12_Transformer",
+    "seed": 42,
+    "horizon": 12,
+    "model": "Transformer",
+    "script": "seed042_horizon12_transformer.py",
+    "output_directory": "Transformer_seed42_horizon12",
+    "command": "python seed042_horizon12_transformer.py"
+  },
+  {
+    "job_index": 39,
+    "job_id": "seed042_horizon12_ConvLSTM",
+    "seed": 42,
+    "horizon": 12,
+    "model": "ConvLSTM",
+    "script": "seed042_horizon12_convlstm.py",
+    "output_directory": "ConvLSTM_seed42_horizon12",
+    "command": "python seed042_horizon12_convlstm.py"
+  },
+  {
+    "job_index": 40,
+    "job_id": "seed042_horizon12_CNN_LSTM",
+    "seed": 42,
+    "horizon": 12,
+    "model": "CNN-LSTM",
+    "script": "seed042_horizon12_cnn_lstm.py",
+    "output_directory": "CNN-LSTM_seed42_horizon12",
+    "command": "python seed042_horizon12_cnn_lstm.py"
+  },
+  {
+    "job_index": 41,
+    "job_id": "seed123_horizon01_STG_Informer",
+    "seed": 123,
+    "horizon": 1,
+    "model": "STG-Informer",
+    "script": "seed123_horizon01_stg_informer.py",
+    "output_directory": "STG_seed123_horizon1",
+    "command": "python seed123_horizon01_stg_informer.py"
+  },
+  {
+    "job_index": 42,
+    "job_id": "seed123_horizon01_G_Informer",
+    "seed": 123,
+    "horizon": 1,
+    "model": "G-Informer",
+    "script": "seed123_horizon01_g_informer.py",
+    "output_directory": "G_seed123_horizon1",
+    "command": "python seed123_horizon01_g_informer.py"
+  },
+  {
+    "job_index": 43,
+    "job_id": "seed123_horizon01_ST_Informer",
+    "seed": 123,
+    "horizon": 1,
+    "model": "ST-Informer",
+    "script": "seed123_horizon01_st_informer.py",
+    "output_directory": "ST_seed123_horizon1",
+    "command": "python seed123_horizon01_st_informer.py"
+  },
+  {
+    "job_index": 44,
+    "job_id": "seed123_horizon01_Informer",
+    "seed": 123,
+    "horizon": 1,
+    "model": "Informer",
+    "script": "seed123_horizon01_informer.py",
+    "output_directory": "Informer_seed123_horizon1",
+    "command": "python seed123_horizon01_informer.py"
+  },
+  {
+    "job_index": 45,
+    "job_id": "seed123_horizon01_GRU",
+    "seed": 123,
+    "horizon": 1,
+    "model": "GRU",
+    "script": "seed123_horizon01_gru.py",
+    "output_directory": "GRU_seed123_horizon1",
+    "command": "python seed123_horizon01_gru.py"
+  },
+  {
+    "job_index": 46,
+    "job_id": "seed123_horizon01_Transformer",
+    "seed": 123,
+    "horizon": 1,
+    "model": "Transformer",
+    "script": "seed123_horizon01_transformer.py",
+    "output_directory": "Transformer_seed123_horizon1",
+    "command": "python seed123_horizon01_transformer.py"
+  },
+  {
+    "job_index": 47,
+    "job_id": "seed123_horizon01_ConvLSTM",
+    "seed": 123,
+    "horizon": 1,
+    "model": "ConvLSTM",
+    "script": "seed123_horizon01_convlstm.py",
+    "output_directory": "ConvLSTM_seed123_horizon1",
+    "command": "python seed123_horizon01_convlstm.py"
+  },
+  {
+    "job_index": 48,
+    "job_id": "seed123_horizon01_CNN_LSTM",
+    "seed": 123,
+    "horizon": 1,
+    "model": "CNN-LSTM",
+    "script": "seed123_horizon01_cnn_lstm.py",
+    "output_directory": "CNN-LSTM_seed123_horizon1",
+    "command": "python seed123_horizon01_cnn_lstm.py"
+  },
+  {
+    "job_index": 49,
+    "job_id": "seed123_horizon03_STG_Informer",
+    "seed": 123,
+    "horizon": 3,
+    "model": "STG-Informer",
+    "script": "seed123_horizon03_stg_informer.py",
+    "output_directory": "STG_seed123_horizon3",
+    "command": "python seed123_horizon03_stg_informer.py"
+  },
+  {
+    "job_index": 50,
+    "job_id": "seed123_horizon03_G_Informer",
+    "seed": 123,
+    "horizon": 3,
+    "model": "G-Informer",
+    "script": "seed123_horizon03_g_informer.py",
+    "output_directory": "G_seed123_horizon3",
+    "command": "python seed123_horizon03_g_informer.py"
+  },
+  {
+    "job_index": 51,
+    "job_id": "seed123_horizon03_ST_Informer",
+    "seed": 123,
+    "horizon": 3,
+    "model": "ST-Informer",
+    "script": "seed123_horizon03_st_informer.py",
+    "output_directory": "ST_seed123_horizon3",
+    "command": "python seed123_horizon03_st_informer.py"
+  },
+  {
+    "job_index": 52,
+    "job_id": "seed123_horizon03_Informer",
+    "seed": 123,
+    "horizon": 3,
+    "model": "Informer",
+    "script": "seed123_horizon03_informer.py",
+    "output_directory": "Informer_seed123_horizon3",
+    "command": "python seed123_horizon03_informer.py"
+  },
+  {
+    "job_index": 53,
+    "job_id": "seed123_horizon03_GRU",
+    "seed": 123,
+    "horizon": 3,
+    "model": "GRU",
+    "script": "seed123_horizon03_gru.py",
+    "output_directory": "GRU_seed123_horizon3",
+    "command": "python seed123_horizon03_gru.py"
+  },
+  {
+    "job_index": 54,
+    "job_id": "seed123_horizon03_Transformer",
+    "seed": 123,
+    "horizon": 3,
+    "model": "Transformer",
+    "script": "seed123_horizon03_transformer.py",
+    "output_directory": "Transformer_seed123_horizon3",
+    "command": "python seed123_horizon03_transformer.py"
+  },
+  {
+    "job_index": 55,
+    "job_id": "seed123_horizon03_ConvLSTM",
+    "seed": 123,
+    "horizon": 3,
+    "model": "ConvLSTM",
+    "script": "seed123_horizon03_convlstm.py",
+    "output_directory": "ConvLSTM_seed123_horizon3",
+    "command": "python seed123_horizon03_convlstm.py"
+  },
+  {
+    "job_index": 56,
+    "job_id": "seed123_horizon03_CNN_LSTM",
+    "seed": 123,
+    "horizon": 3,
+    "model": "CNN-LSTM",
+    "script": "seed123_horizon03_cnn_lstm.py",
+    "output_directory": "CNN-LSTM_seed123_horizon3",
+    "command": "python seed123_horizon03_cnn_lstm.py"
+  },
+  {
+    "job_index": 57,
+    "job_id": "seed123_horizon06_STG_Informer",
+    "seed": 123,
+    "horizon": 6,
+    "model": "STG-Informer",
+    "script": "seed123_horizon06_stg_informer.py",
+    "output_directory": "STG_seed123_horizon6",
+    "command": "python seed123_horizon06_stg_informer.py"
+  },
+  {
+    "job_index": 58,
+    "job_id": "seed123_horizon06_G_Informer",
+    "seed": 123,
+    "horizon": 6,
+    "model": "G-Informer",
+    "script": "seed123_horizon06_g_informer.py",
+    "output_directory": "G_seed123_horizon6",
+    "command": "python seed123_horizon06_g_informer.py"
+  },
+  {
+    "job_index": 59,
+    "job_id": "seed123_horizon06_ST_Informer",
+    "seed": 123,
+    "horizon": 6,
+    "model": "ST-Informer",
+    "script": "seed123_horizon06_st_informer.py",
+    "output_directory": "ST_seed123_horizon6",
+    "command": "python seed123_horizon06_st_informer.py"
+  },
+  {
+    "job_index": 60,
+    "job_id": "seed123_horizon06_Informer",
+    "seed": 123,
+    "horizon": 6,
+    "model": "Informer",
+    "script": "seed123_horizon06_informer.py",
+    "output_directory": "Informer_seed123_horizon6",
+    "command": "python seed123_horizon06_informer.py"
+  },
+  {
+    "job_index": 61,
+    "job_id": "seed123_horizon06_GRU",
+    "seed": 123,
+    "horizon": 6,
+    "model": "GRU",
+    "script": "seed123_horizon06_gru.py",
+    "output_directory": "GRU_seed123_horizon6",
+    "command": "python seed123_horizon06_gru.py"
+  },
+  {
+    "job_index": 62,
+    "job_id": "seed123_horizon06_Transformer",
+    "seed": 123,
+    "horizon": 6,
+    "model": "Transformer",
+    "script": "seed123_horizon06_transformer.py",
+    "output_directory": "Transformer_seed123_horizon6",
+    "command": "python seed123_horizon06_transformer.py"
+  },
+  {
+    "job_index": 63,
+    "job_id": "seed123_horizon06_ConvLSTM",
+    "seed": 123,
+    "horizon": 6,
+    "model": "ConvLSTM",
+    "script": "seed123_horizon06_convlstm.py",
+    "output_directory": "ConvLSTM_seed123_horizon6",
+    "command": "python seed123_horizon06_convlstm.py"
+  },
+  {
+    "job_index": 64,
+    "job_id": "seed123_horizon06_CNN_LSTM",
+    "seed": 123,
+    "horizon": 6,
+    "model": "CNN-LSTM",
+    "script": "seed123_horizon06_cnn_lstm.py",
+    "output_directory": "CNN-LSTM_seed123_horizon6",
+    "command": "python seed123_horizon06_cnn_lstm.py"
+  },
+  {
+    "job_index": 65,
+    "job_id": "seed123_horizon09_STG_Informer",
+    "seed": 123,
+    "horizon": 9,
+    "model": "STG-Informer",
+    "script": "seed123_horizon09_stg_informer.py",
+    "output_directory": "STG_seed123_horizon9",
+    "command": "python seed123_horizon09_stg_informer.py"
+  },
+  {
+    "job_index": 66,
+    "job_id": "seed123_horizon09_G_Informer",
+    "seed": 123,
+    "horizon": 9,
+    "model": "G-Informer",
+    "script": "seed123_horizon09_g_informer.py",
+    "output_directory": "G_seed123_horizon9",
+    "command": "python seed123_horizon09_g_informer.py"
+  },
+  {
+    "job_index": 67,
+    "job_id": "seed123_horizon09_ST_Informer",
+    "seed": 123,
+    "horizon": 9,
+    "model": "ST-Informer",
+    "script": "seed123_horizon09_st_informer.py",
+    "output_directory": "ST_seed123_horizon9",
+    "command": "python seed123_horizon09_st_informer.py"
+  },
+  {
+    "job_index": 68,
+    "job_id": "seed123_horizon09_Informer",
+    "seed": 123,
+    "horizon": 9,
+    "model": "Informer",
+    "script": "seed123_horizon09_informer.py",
+    "output_directory": "Informer_seed123_horizon9",
+    "command": "python seed123_horizon09_informer.py"
+  },
+  {
+    "job_index": 69,
+    "job_id": "seed123_horizon09_GRU",
+    "seed": 123,
+    "horizon": 9,
+    "model": "GRU",
+    "script": "seed123_horizon09_gru.py",
+    "output_directory": "GRU_seed123_horizon9",
+    "command": "python seed123_horizon09_gru.py"
+  },
+  {
+    "job_index": 70,
+    "job_id": "seed123_horizon09_Transformer",
+    "seed": 123,
+    "horizon": 9,
+    "model": "Transformer",
+    "script": "seed123_horizon09_transformer.py",
+    "output_directory": "Transformer_seed123_horizon9",
+    "command": "python seed123_horizon09_transformer.py"
+  },
+  {
+    "job_index": 71,
+    "job_id": "seed123_horizon09_ConvLSTM",
+    "seed": 123,
+    "horizon": 9,
+    "model": "ConvLSTM",
+    "script": "seed123_horizon09_convlstm.py",
+    "output_directory": "ConvLSTM_seed123_horizon9",
+    "command": "python seed123_horizon09_convlstm.py"
+  },
+  {
+    "job_index": 72,
+    "job_id": "seed123_horizon09_CNN_LSTM",
+    "seed": 123,
+    "horizon": 9,
+    "model": "CNN-LSTM",
+    "script": "seed123_horizon09_cnn_lstm.py",
+    "output_directory": "CNN-LSTM_seed123_horizon9",
+    "command": "python seed123_horizon09_cnn_lstm.py"
+  },
+  {
+    "job_index": 73,
+    "job_id": "seed123_horizon12_STG_Informer",
+    "seed": 123,
+    "horizon": 12,
+    "model": "STG-Informer",
+    "script": "seed123_horizon12_stg_informer.py",
+    "output_directory": "STG_seed123_horizon12",
+    "command": "python seed123_horizon12_stg_informer.py"
+  },
+  {
+    "job_index": 74,
+    "job_id": "seed123_horizon12_G_Informer",
+    "seed": 123,
+    "horizon": 12,
+    "model": "G-Informer",
+    "script": "seed123_horizon12_g_informer.py",
+    "output_directory": "G_seed123_horizon12",
+    "command": "python seed123_horizon12_g_informer.py"
+  },
+  {
+    "job_index": 75,
+    "job_id": "seed123_horizon12_ST_Informer",
+    "seed": 123,
+    "horizon": 12,
+    "model": "ST-Informer",
+    "script": "seed123_horizon12_st_informer.py",
+    "output_directory": "ST_seed123_horizon12",
+    "command": "python seed123_horizon12_st_informer.py"
+  },
+  {
+    "job_index": 76,
+    "job_id": "seed123_horizon12_Informer",
+    "seed": 123,
+    "horizon": 12,
+    "model": "Informer",
+    "script": "seed123_horizon12_informer.py",
+    "output_directory": "Informer_seed123_horizon12",
+    "command": "python seed123_horizon12_informer.py"
+  },
+  {
+    "job_index": 77,
+    "job_id": "seed123_horizon12_GRU",
+    "seed": 123,
+    "horizon": 12,
+    "model": "GRU",
+    "script": "seed123_horizon12_gru.py",
+    "output_directory": "GRU_seed123_horizon12",
+    "command": "python seed123_horizon12_gru.py"
+  },
+  {
+    "job_index": 78,
+    "job_id": "seed123_horizon12_Transformer",
+    "seed": 123,
+    "horizon": 12,
+    "model": "Transformer",
+    "script": "seed123_horizon12_transformer.py",
+    "output_directory": "Transformer_seed123_horizon12",
+    "command": "python seed123_horizon12_transformer.py"
+  },
+  {
+    "job_index": 79,
+    "job_id": "seed123_horizon12_ConvLSTM",
+    "seed": 123,
+    "horizon": 12,
+    "model": "ConvLSTM",
+    "script": "seed123_horizon12_convlstm.py",
+    "output_directory": "ConvLSTM_seed123_horizon12",
+    "command": "python seed123_horizon12_convlstm.py"
+  },
+  {
+    "job_index": 80,
+    "job_id": "seed123_horizon12_CNN_LSTM",
+    "seed": 123,
+    "horizon": 12,
+    "model": "CNN-LSTM",
+    "script": "seed123_horizon12_cnn_lstm.py",
+    "output_directory": "CNN-LSTM_seed123_horizon12",
+    "command": "python seed123_horizon12_cnn_lstm.py"
+  },
+  {
+    "job_index": 81,
+    "job_id": "seed2024_horizon01_STG_Informer",
+    "seed": 2024,
+    "horizon": 1,
+    "model": "STG-Informer",
+    "script": "seed2024_horizon01_stg_informer.py",
+    "output_directory": "STG_seed2024_horizon1",
+    "command": "python seed2024_horizon01_stg_informer.py"
+  },
+  {
+    "job_index": 82,
+    "job_id": "seed2024_horizon01_G_Informer",
+    "seed": 2024,
+    "horizon": 1,
+    "model": "G-Informer",
+    "script": "seed2024_horizon01_g_informer.py",
+    "output_directory": "G_seed2024_horizon1",
+    "command": "python seed2024_horizon01_g_informer.py"
+  },
+  {
+    "job_index": 83,
+    "job_id": "seed2024_horizon01_ST_Informer",
+    "seed": 2024,
+    "horizon": 1,
+    "model": "ST-Informer",
+    "script": "seed2024_horizon01_st_informer.py",
+    "output_directory": "ST_seed2024_horizon1",
+    "command": "python seed2024_horizon01_st_informer.py"
+  },
+  {
+    "job_index": 84,
+    "job_id": "seed2024_horizon01_Informer",
+    "seed": 2024,
+    "horizon": 1,
+    "model": "Informer",
+    "script": "seed2024_horizon01_informer.py",
+    "output_directory": "Informer_seed2024_horizon1",
+    "command": "python seed2024_horizon01_informer.py"
+  },
+  {
+    "job_index": 85,
+    "job_id": "seed2024_horizon01_GRU",
+    "seed": 2024,
+    "horizon": 1,
+    "model": "GRU",
+    "script": "seed2024_horizon01_gru.py",
+    "output_directory": "GRU_seed2024_horizon1",
+    "command": "python seed2024_horizon01_gru.py"
+  },
+  {
+    "job_index": 86,
+    "job_id": "seed2024_horizon01_Transformer",
+    "seed": 2024,
+    "horizon": 1,
+    "model": "Transformer",
+    "script": "seed2024_horizon01_transformer.py",
+    "output_directory": "Transformer_seed2024_horizon1",
+    "command": "python seed2024_horizon01_transformer.py"
+  },
+  {
+    "job_index": 87,
+    "job_id": "seed2024_horizon01_ConvLSTM",
+    "seed": 2024,
+    "horizon": 1,
+    "model": "ConvLSTM",
+    "script": "seed2024_horizon01_convlstm.py",
+    "output_directory": "ConvLSTM_seed2024_horizon1",
+    "command": "python seed2024_horizon01_convlstm.py"
+  },
+  {
+    "job_index": 88,
+    "job_id": "seed2024_horizon01_CNN_LSTM",
+    "seed": 2024,
+    "horizon": 1,
+    "model": "CNN-LSTM",
+    "script": "seed2024_horizon01_cnn_lstm.py",
+    "output_directory": "CNN-LSTM_seed2024_horizon1",
+    "command": "python seed2024_horizon01_cnn_lstm.py"
+  },
+  {
+    "job_index": 89,
+    "job_id": "seed2024_horizon03_STG_Informer",
+    "seed": 2024,
+    "horizon": 3,
+    "model": "STG-Informer",
+    "script": "seed2024_horizon03_stg_informer.py",
+    "output_directory": "STG_seed2024_horizon3",
+    "command": "python seed2024_horizon03_stg_informer.py"
+  },
+  {
+    "job_index": 90,
+    "job_id": "seed2024_horizon03_G_Informer",
+    "seed": 2024,
+    "horizon": 3,
+    "model": "G-Informer",
+    "script": "seed2024_horizon03_g_informer.py",
+    "output_directory": "G_seed2024_horizon3",
+    "command": "python seed2024_horizon03_g_informer.py"
+  },
+  {
+    "job_index": 91,
+    "job_id": "seed2024_horizon03_ST_Informer",
+    "seed": 2024,
+    "horizon": 3,
+    "model": "ST-Informer",
+    "script": "seed2024_horizon03_st_informer.py",
+    "output_directory": "ST_seed2024_horizon3",
+    "command": "python seed2024_horizon03_st_informer.py"
+  },
+  {
+    "job_index": 92,
+    "job_id": "seed2024_horizon03_Informer",
+    "seed": 2024,
+    "horizon": 3,
+    "model": "Informer",
+    "script": "seed2024_horizon03_informer.py",
+    "output_directory": "Informer_seed2024_horizon3",
+    "command": "python seed2024_horizon03_informer.py"
+  },
+  {
+    "job_index": 93,
+    "job_id": "seed2024_horizon03_GRU",
+    "seed": 2024,
+    "horizon": 3,
+    "model": "GRU",
+    "script": "seed2024_horizon03_gru.py",
+    "output_directory": "GRU_seed2024_horizon3",
+    "command": "python seed2024_horizon03_gru.py"
+  },
+  {
+    "job_index": 94,
+    "job_id": "seed2024_horizon03_Transformer",
+    "seed": 2024,
+    "horizon": 3,
+    "model": "Transformer",
+    "script": "seed2024_horizon03_transformer.py",
+    "output_directory": "Transformer_seed2024_horizon3",
+    "command": "python seed2024_horizon03_transformer.py"
+  },
+  {
+    "job_index": 95,
+    "job_id": "seed2024_horizon03_ConvLSTM",
+    "seed": 2024,
+    "horizon": 3,
+    "model": "ConvLSTM",
+    "script": "seed2024_horizon03_convlstm.py",
+    "output_directory": "ConvLSTM_seed2024_horizon3",
+    "command": "python seed2024_horizon03_convlstm.py"
+  },
+  {
+    "job_index": 96,
+    "job_id": "seed2024_horizon03_CNN_LSTM",
+    "seed": 2024,
+    "horizon": 3,
+    "model": "CNN-LSTM",
+    "script": "seed2024_horizon03_cnn_lstm.py",
+    "output_directory": "CNN-LSTM_seed2024_horizon3",
+    "command": "python seed2024_horizon03_cnn_lstm.py"
+  },
+  {
+    "job_index": 97,
+    "job_id": "seed2024_horizon06_STG_Informer",
+    "seed": 2024,
+    "horizon": 6,
+    "model": "STG-Informer",
+    "script": "seed2024_horizon06_stg_informer.py",
+    "output_directory": "STG_seed2024_horizon6",
+    "command": "python seed2024_horizon06_stg_informer.py"
+  },
+  {
+    "job_index": 98,
+    "job_id": "seed2024_horizon06_G_Informer",
+    "seed": 2024,
+    "horizon": 6,
+    "model": "G-Informer",
+    "script": "seed2024_horizon06_g_informer.py",
+    "output_directory": "G_seed2024_horizon6",
+    "command": "python seed2024_horizon06_g_informer.py"
+  },
+  {
+    "job_index": 99,
+    "job_id": "seed2024_horizon06_ST_Informer",
+    "seed": 2024,
+    "horizon": 6,
+    "model": "ST-Informer",
+    "script": "seed2024_horizon06_st_informer.py",
+    "output_directory": "ST_seed2024_horizon6",
+    "command": "python seed2024_horizon06_st_informer.py"
+  },
+  {
+    "job_index": 100,
+    "job_id": "seed2024_horizon06_Informer",
+    "seed": 2024,
+    "horizon": 6,
+    "model": "Informer",
+    "script": "seed2024_horizon06_informer.py",
+    "output_directory": "Informer_seed2024_horizon6",
+    "command": "python seed2024_horizon06_informer.py"
+  },
+  {
+    "job_index": 101,
+    "job_id": "seed2024_horizon06_GRU",
+    "seed": 2024,
+    "horizon": 6,
+    "model": "GRU",
+    "script": "seed2024_horizon06_gru.py",
+    "output_directory": "GRU_seed2024_horizon6",
+    "command": "python seed2024_horizon06_gru.py"
+  },
+  {
+    "job_index": 102,
+    "job_id": "seed2024_horizon06_Transformer",
+    "seed": 2024,
+    "horizon": 6,
+    "model": "Transformer",
+    "script": "seed2024_horizon06_transformer.py",
+    "output_directory": "Transformer_seed2024_horizon6",
+    "command": "python seed2024_horizon06_transformer.py"
+  },
+  {
+    "job_index": 103,
+    "job_id": "seed2024_horizon06_ConvLSTM",
+    "seed": 2024,
+    "horizon": 6,
+    "model": "ConvLSTM",
+    "script": "seed2024_horizon06_convlstm.py",
+    "output_directory": "ConvLSTM_seed2024_horizon6",
+    "command": "python seed2024_horizon06_convlstm.py"
+  },
+  {
+    "job_index": 104,
+    "job_id": "seed2024_horizon06_CNN_LSTM",
+    "seed": 2024,
+    "horizon": 6,
+    "model": "CNN-LSTM",
+    "script": "seed2024_horizon06_cnn_lstm.py",
+    "output_directory": "CNN-LSTM_seed2024_horizon6",
+    "command": "python seed2024_horizon06_cnn_lstm.py"
+  },
+  {
+    "job_index": 105,
+    "job_id": "seed2024_horizon09_STG_Informer",
+    "seed": 2024,
+    "horizon": 9,
+    "model": "STG-Informer",
+    "script": "seed2024_horizon09_stg_informer.py",
+    "output_directory": "STG_seed2024_horizon9",
+    "command": "python seed2024_horizon09_stg_informer.py"
+  },
+  {
+    "job_index": 106,
+    "job_id": "seed2024_horizon09_G_Informer",
+    "seed": 2024,
+    "horizon": 9,
+    "model": "G-Informer",
+    "script": "seed2024_horizon09_g_informer.py",
+    "output_directory": "G_seed2024_horizon9",
+    "command": "python seed2024_horizon09_g_informer.py"
+  },
+  {
+    "job_index": 107,
+    "job_id": "seed2024_horizon09_ST_Informer",
+    "seed": 2024,
+    "horizon": 9,
+    "model": "ST-Informer",
+    "script": "seed2024_horizon09_st_informer.py",
+    "output_directory": "ST_seed2024_horizon9",
+    "command": "python seed2024_horizon09_st_informer.py"
+  },
+  {
+    "job_index": 108,
+    "job_id": "seed2024_horizon09_Informer",
+    "seed": 2024,
+    "horizon": 9,
+    "model": "Informer",
+    "script": "seed2024_horizon09_informer.py",
+    "output_directory": "Informer_seed2024_horizon9",
+    "command": "python seed2024_horizon09_informer.py"
+  },
+  {
+    "job_index": 109,
+    "job_id": "seed2024_horizon09_GRU",
+    "seed": 2024,
+    "horizon": 9,
+    "model": "GRU",
+    "script": "seed2024_horizon09_gru.py",
+    "output_directory": "GRU_seed2024_horizon9",
+    "command": "python seed2024_horizon09_gru.py"
+  },
+  {
+    "job_index": 110,
+    "job_id": "seed2024_horizon09_Transformer",
+    "seed": 2024,
+    "horizon": 9,
+    "model": "Transformer",
+    "script": "seed2024_horizon09_transformer.py",
+    "output_directory": "Transformer_seed2024_horizon9",
+    "command": "python seed2024_horizon09_transformer.py"
+  },
+  {
+    "job_index": 111,
+    "job_id": "seed2024_horizon09_ConvLSTM",
+    "seed": 2024,
+    "horizon": 9,
+    "model": "ConvLSTM",
+    "script": "seed2024_horizon09_convlstm.py",
+    "output_directory": "ConvLSTM_seed2024_horizon9",
+    "command": "python seed2024_horizon09_convlstm.py"
+  },
+  {
+    "job_index": 112,
+    "job_id": "seed2024_horizon09_CNN_LSTM",
+    "seed": 2024,
+    "horizon": 9,
+    "model": "CNN-LSTM",
+    "script": "seed2024_horizon09_cnn_lstm.py",
+    "output_directory": "CNN-LSTM_seed2024_horizon9",
+    "command": "python seed2024_horizon09_cnn_lstm.py"
+  },
+  {
+    "job_index": 113,
+    "job_id": "seed2024_horizon12_STG_Informer",
+    "seed": 2024,
+    "horizon": 12,
+    "model": "STG-Informer",
+    "script": "seed2024_horizon12_stg_informer.py",
+    "output_directory": "STG_seed2024_horizon12",
+    "command": "python seed2024_horizon12_stg_informer.py"
+  },
+  {
+    "job_index": 114,
+    "job_id": "seed2024_horizon12_G_Informer",
+    "seed": 2024,
+    "horizon": 12,
+    "model": "G-Informer",
+    "script": "seed2024_horizon12_g_informer.py",
+    "output_directory": "G_seed2024_horizon12",
+    "command": "python seed2024_horizon12_g_informer.py"
+  },
+  {
+    "job_index": 115,
+    "job_id": "seed2024_horizon12_ST_Informer",
+    "seed": 2024,
+    "horizon": 12,
+    "model": "ST-Informer",
+    "script": "seed2024_horizon12_st_informer.py",
+    "output_directory": "ST_seed2024_horizon12",
+    "command": "python seed2024_horizon12_st_informer.py"
+  },
+  {
+    "job_index": 116,
+    "job_id": "seed2024_horizon12_Informer",
+    "seed": 2024,
+    "horizon": 12,
+    "model": "Informer",
+    "script": "seed2024_horizon12_informer.py",
+    "output_directory": "Informer_seed2024_horizon12",
+    "command": "python seed2024_horizon12_informer.py"
+  },
+  {
+    "job_index": 117,
+    "job_id": "seed2024_horizon12_GRU",
+    "seed": 2024,
+    "horizon": 12,
+    "model": "GRU",
+    "script": "seed2024_horizon12_gru.py",
+    "output_directory": "GRU_seed2024_horizon12",
+    "command": "python seed2024_horizon12_gru.py"
+  },
+  {
+    "job_index": 118,
+    "job_id": "seed2024_horizon12_Transformer",
+    "seed": 2024,
+    "horizon": 12,
+    "model": "Transformer",
+    "script": "seed2024_horizon12_transformer.py",
+    "output_directory": "Transformer_seed2024_horizon12",
+    "command": "python seed2024_horizon12_transformer.py"
+  },
+  {
+    "job_index": 119,
+    "job_id": "seed2024_horizon12_ConvLSTM",
+    "seed": 2024,
+    "horizon": 12,
+    "model": "ConvLSTM",
+    "script": "seed2024_horizon12_convlstm.py",
+    "output_directory": "ConvLSTM_seed2024_horizon12",
+    "command": "python seed2024_horizon12_convlstm.py"
+  },
+  {
+    "job_index": 120,
+    "job_id": "seed2024_horizon12_CNN_LSTM",
+    "seed": 2024,
+    "horizon": 12,
+    "model": "CNN-LSTM",
+    "script": "seed2024_horizon12_cnn_lstm.py",
+    "output_directory": "CNN-LSTM_seed2024_horizon12",
+    "command": "python seed2024_horizon12_cnn_lstm.py"
+  },
+  {
+    "job_index": 121,
+    "job_id": "seed007_horizon01_STG_Informer",
+    "seed": 7,
+    "horizon": 1,
+    "model": "STG-Informer",
+    "script": "seed007_horizon01_stg_informer.py",
+    "output_directory": "STG_seed7_horizon1",
+    "command": "python seed007_horizon01_stg_informer.py"
+  },
+  {
+    "job_index": 122,
+    "job_id": "seed007_horizon01_G_Informer",
+    "seed": 7,
+    "horizon": 1,
+    "model": "G-Informer",
+    "script": "seed007_horizon01_g_informer.py",
+    "output_directory": "G_seed7_horizon1",
+    "command": "python seed007_horizon01_g_informer.py"
+  },
+  {
+    "job_index": 123,
+    "job_id": "seed007_horizon01_ST_Informer",
+    "seed": 7,
+    "horizon": 1,
+    "model": "ST-Informer",
+    "script": "seed007_horizon01_st_informer.py",
+    "output_directory": "ST_seed7_horizon1",
+    "command": "python seed007_horizon01_st_informer.py"
+  },
+  {
+    "job_index": 124,
+    "job_id": "seed007_horizon01_Informer",
+    "seed": 7,
+    "horizon": 1,
+    "model": "Informer",
+    "script": "seed007_horizon01_informer.py",
+    "output_directory": "Informer_seed7_horizon1",
+    "command": "python seed007_horizon01_informer.py"
+  },
+  {
+    "job_index": 125,
+    "job_id": "seed007_horizon01_GRU",
+    "seed": 7,
+    "horizon": 1,
+    "model": "GRU",
+    "script": "seed007_horizon01_gru.py",
+    "output_directory": "GRU_seed7_horizon1",
+    "command": "python seed007_horizon01_gru.py"
+  },
+  {
+    "job_index": 126,
+    "job_id": "seed007_horizon01_Transformer",
+    "seed": 7,
+    "horizon": 1,
+    "model": "Transformer",
+    "script": "seed007_horizon01_transformer.py",
+    "output_directory": "Transformer_seed7_horizon1",
+    "command": "python seed007_horizon01_transformer.py"
+  },
+  {
+    "job_index": 127,
+    "job_id": "seed007_horizon01_ConvLSTM",
+    "seed": 7,
+    "horizon": 1,
+    "model": "ConvLSTM",
+    "script": "seed007_horizon01_convlstm.py",
+    "output_directory": "ConvLSTM_seed7_horizon1",
+    "command": "python seed007_horizon01_convlstm.py"
+  },
+  {
+    "job_index": 128,
+    "job_id": "seed007_horizon01_CNN_LSTM",
+    "seed": 7,
+    "horizon": 1,
+    "model": "CNN-LSTM",
+    "script": "seed007_horizon01_cnn_lstm.py",
+    "output_directory": "CNN-LSTM_seed7_horizon1",
+    "command": "python seed007_horizon01_cnn_lstm.py"
+  },
+  {
+    "job_index": 129,
+    "job_id": "seed007_horizon03_STG_Informer",
+    "seed": 7,
+    "horizon": 3,
+    "model": "STG-Informer",
+    "script": "seed007_horizon03_stg_informer.py",
+    "output_directory": "STG_seed7_horizon3",
+    "command": "python seed007_horizon03_stg_informer.py"
+  },
+  {
+    "job_index": 130,
+    "job_id": "seed007_horizon03_G_Informer",
+    "seed": 7,
+    "horizon": 3,
+    "model": "G-Informer",
+    "script": "seed007_horizon03_g_informer.py",
+    "output_directory": "G_seed7_horizon3",
+    "command": "python seed007_horizon03_g_informer.py"
+  },
+  {
+    "job_index": 131,
+    "job_id": "seed007_horizon03_ST_Informer",
+    "seed": 7,
+    "horizon": 3,
+    "model": "ST-Informer",
+    "script": "seed007_horizon03_st_informer.py",
+    "output_directory": "ST_seed7_horizon3",
+    "command": "python seed007_horizon03_st_informer.py"
+  },
+  {
+    "job_index": 132,
+    "job_id": "seed007_horizon03_Informer",
+    "seed": 7,
+    "horizon": 3,
+    "model": "Informer",
+    "script": "seed007_horizon03_informer.py",
+    "output_directory": "Informer_seed7_horizon3",
+    "command": "python seed007_horizon03_informer.py"
+  },
+  {
+    "job_index": 133,
+    "job_id": "seed007_horizon03_GRU",
+    "seed": 7,
+    "horizon": 3,
+    "model": "GRU",
+    "script": "seed007_horizon03_gru.py",
+    "output_directory": "GRU_seed7_horizon3",
+    "command": "python seed007_horizon03_gru.py"
+  },
+  {
+    "job_index": 134,
+    "job_id": "seed007_horizon03_Transformer",
+    "seed": 7,
+    "horizon": 3,
+    "model": "Transformer",
+    "script": "seed007_horizon03_transformer.py",
+    "output_directory": "Transformer_seed7_horizon3",
+    "command": "python seed007_horizon03_transformer.py"
+  },
+  {
+    "job_index": 135,
+    "job_id": "seed007_horizon03_ConvLSTM",
+    "seed": 7,
+    "horizon": 3,
+    "model": "ConvLSTM",
+    "script": "seed007_horizon03_convlstm.py",
+    "output_directory": "ConvLSTM_seed7_horizon3",
+    "command": "python seed007_horizon03_convlstm.py"
+  },
+  {
+    "job_index": 136,
+    "job_id": "seed007_horizon03_CNN_LSTM",
+    "seed": 7,
+    "horizon": 3,
+    "model": "CNN-LSTM",
+    "script": "seed007_horizon03_cnn_lstm.py",
+    "output_directory": "CNN-LSTM_seed7_horizon3",
+    "command": "python seed007_horizon03_cnn_lstm.py"
+  },
+  {
+    "job_index": 137,
+    "job_id": "seed007_horizon06_STG_Informer",
+    "seed": 7,
+    "horizon": 6,
+    "model": "STG-Informer",
+    "script": "seed007_horizon06_stg_informer.py",
+    "output_directory": "STG_seed7_horizon6",
+    "command": "python seed007_horizon06_stg_informer.py"
+  },
+  {
+    "job_index": 138,
+    "job_id": "seed007_horizon06_G_Informer",
+    "seed": 7,
+    "horizon": 6,
+    "model": "G-Informer",
+    "script": "seed007_horizon06_g_informer.py",
+    "output_directory": "G_seed7_horizon6",
+    "command": "python seed007_horizon06_g_informer.py"
+  },
+  {
+    "job_index": 139,
+    "job_id": "seed007_horizon06_ST_Informer",
+    "seed": 7,
+    "horizon": 6,
+    "model": "ST-Informer",
+    "script": "seed007_horizon06_st_informer.py",
+    "output_directory": "ST_seed7_horizon6",
+    "command": "python seed007_horizon06_st_informer.py"
+  },
+  {
+    "job_index": 140,
+    "job_id": "seed007_horizon06_Informer",
+    "seed": 7,
+    "horizon": 6,
+    "model": "Informer",
+    "script": "seed007_horizon06_informer.py",
+    "output_directory": "Informer_seed7_horizon6",
+    "command": "python seed007_horizon06_informer.py"
+  },
+  {
+    "job_index": 141,
+    "job_id": "seed007_horizon06_GRU",
+    "seed": 7,
+    "horizon": 6,
+    "model": "GRU",
+    "script": "seed007_horizon06_gru.py",
+    "output_directory": "GRU_seed7_horizon6",
+    "command": "python seed007_horizon06_gru.py"
+  },
+  {
+    "job_index": 142,
+    "job_id": "seed007_horizon06_Transformer",
+    "seed": 7,
+    "horizon": 6,
+    "model": "Transformer",
+    "script": "seed007_horizon06_transformer.py",
+    "output_directory": "Transformer_seed7_horizon6",
+    "command": "python seed007_horizon06_transformer.py"
+  },
+  {
+    "job_index": 143,
+    "job_id": "seed007_horizon06_ConvLSTM",
+    "seed": 7,
+    "horizon": 6,
+    "model": "ConvLSTM",
+    "script": "seed007_horizon06_convlstm.py",
+    "output_directory": "ConvLSTM_seed7_horizon6",
+    "command": "python seed007_horizon06_convlstm.py"
+  },
+  {
+    "job_index": 144,
+    "job_id": "seed007_horizon06_CNN_LSTM",
+    "seed": 7,
+    "horizon": 6,
+    "model": "CNN-LSTM",
+    "script": "seed007_horizon06_cnn_lstm.py",
+    "output_directory": "CNN-LSTM_seed7_horizon6",
+    "command": "python seed007_horizon06_cnn_lstm.py"
+  },
+  {
+    "job_index": 145,
+    "job_id": "seed007_horizon09_STG_Informer",
+    "seed": 7,
+    "horizon": 9,
+    "model": "STG-Informer",
+    "script": "seed007_horizon09_stg_informer.py",
+    "output_directory": "STG_seed7_horizon9",
+    "command": "python seed007_horizon09_stg_informer.py"
+  },
+  {
+    "job_index": 146,
+    "job_id": "seed007_horizon09_G_Informer",
+    "seed": 7,
+    "horizon": 9,
+    "model": "G-Informer",
+    "script": "seed007_horizon09_g_informer.py",
+    "output_directory": "G_seed7_horizon9",
+    "command": "python seed007_horizon09_g_informer.py"
+  },
+  {
+    "job_index": 147,
+    "job_id": "seed007_horizon09_ST_Informer",
+    "seed": 7,
+    "horizon": 9,
+    "model": "ST-Informer",
+    "script": "seed007_horizon09_st_informer.py",
+    "output_directory": "ST_seed7_horizon9",
+    "command": "python seed007_horizon09_st_informer.py"
+  },
+  {
+    "job_index": 148,
+    "job_id": "seed007_horizon09_Informer",
+    "seed": 7,
+    "horizon": 9,
+    "model": "Informer",
+    "script": "seed007_horizon09_informer.py",
+    "output_directory": "Informer_seed7_horizon9",
+    "command": "python seed007_horizon09_informer.py"
+  },
+  {
+    "job_index": 149,
+    "job_id": "seed007_horizon09_GRU",
+    "seed": 7,
+    "horizon": 9,
+    "model": "GRU",
+    "script": "seed007_horizon09_gru.py",
+    "output_directory": "GRU_seed7_horizon9",
+    "command": "python seed007_horizon09_gru.py"
+  },
+  {
+    "job_index": 150,
+    "job_id": "seed007_horizon09_Transformer",
+    "seed": 7,
+    "horizon": 9,
+    "model": "Transformer",
+    "script": "seed007_horizon09_transformer.py",
+    "output_directory": "Transformer_seed7_horizon9",
+    "command": "python seed007_horizon09_transformer.py"
+  },
+  {
+    "job_index": 151,
+    "job_id": "seed007_horizon09_ConvLSTM",
+    "seed": 7,
+    "horizon": 9,
+    "model": "ConvLSTM",
+    "script": "seed007_horizon09_convlstm.py",
+    "output_directory": "ConvLSTM_seed7_horizon9",
+    "command": "python seed007_horizon09_convlstm.py"
+  },
+  {
+    "job_index": 152,
+    "job_id": "seed007_horizon09_CNN_LSTM",
+    "seed": 7,
+    "horizon": 9,
+    "model": "CNN-LSTM",
+    "script": "seed007_horizon09_cnn_lstm.py",
+    "output_directory": "CNN-LSTM_seed7_horizon9",
+    "command": "python seed007_horizon09_cnn_lstm.py"
+  },
+  {
+    "job_index": 153,
+    "job_id": "seed007_horizon12_STG_Informer",
+    "seed": 7,
+    "horizon": 12,
+    "model": "STG-Informer",
+    "script": "seed007_horizon12_stg_informer.py",
+    "output_directory": "STG_seed7_horizon12",
+    "command": "python seed007_horizon12_stg_informer.py"
+  },
+  {
+    "job_index": 154,
+    "job_id": "seed007_horizon12_G_Informer",
+    "seed": 7,
+    "horizon": 12,
+    "model": "G-Informer",
+    "script": "seed007_horizon12_g_informer.py",
+    "output_directory": "G_seed7_horizon12",
+    "command": "python seed007_horizon12_g_informer.py"
+  },
+  {
+    "job_index": 155,
+    "job_id": "seed007_horizon12_ST_Informer",
+    "seed": 7,
+    "horizon": 12,
+    "model": "ST-Informer",
+    "script": "seed007_horizon12_st_informer.py",
+    "output_directory": "ST_seed7_horizon12",
+    "command": "python seed007_horizon12_st_informer.py"
+  },
+  {
+    "job_index": 156,
+    "job_id": "seed007_horizon12_Informer",
+    "seed": 7,
+    "horizon": 12,
+    "model": "Informer",
+    "script": "seed007_horizon12_informer.py",
+    "output_directory": "Informer_seed7_horizon12",
+    "command": "python seed007_horizon12_informer.py"
+  },
+  {
+    "job_index": 157,
+    "job_id": "seed007_horizon12_GRU",
+    "seed": 7,
+    "horizon": 12,
+    "model": "GRU",
+    "script": "seed007_horizon12_gru.py",
+    "output_directory": "GRU_seed7_horizon12",
+    "command": "python seed007_horizon12_gru.py"
+  },
+  {
+    "job_index": 158,
+    "job_id": "seed007_horizon12_Transformer",
+    "seed": 7,
+    "horizon": 12,
+    "model": "Transformer",
+    "script": "seed007_horizon12_transformer.py",
+    "output_directory": "Transformer_seed7_horizon12",
+    "command": "python seed007_horizon12_transformer.py"
+  },
+  {
+    "job_index": 159,
+    "job_id": "seed007_horizon12_ConvLSTM",
+    "seed": 7,
+    "horizon": 12,
+    "model": "ConvLSTM",
+    "script": "seed007_horizon12_convlstm.py",
+    "output_directory": "ConvLSTM_seed7_horizon12",
+    "command": "python seed007_horizon12_convlstm.py"
+  },
+  {
+    "job_index": 160,
+    "job_id": "seed007_horizon12_CNN_LSTM",
+    "seed": 7,
+    "horizon": 12,
+    "model": "CNN-LSTM",
+    "script": "seed007_horizon12_cnn_lstm.py",
+    "output_directory": "CNN-LSTM_seed7_horizon12",
+    "command": "python seed007_horizon12_cnn_lstm.py"
+  },
+  {
+    "job_index": 161,
+    "job_id": "seed099_horizon01_STG_Informer",
+    "seed": 99,
+    "horizon": 1,
+    "model": "STG-Informer",
+    "script": "seed099_horizon01_stg_informer.py",
+    "output_directory": "STG_seed99_horizon1",
+    "command": "python seed099_horizon01_stg_informer.py"
+  },
+  {
+    "job_index": 162,
+    "job_id": "seed099_horizon01_G_Informer",
+    "seed": 99,
+    "horizon": 1,
+    "model": "G-Informer",
+    "script": "seed099_horizon01_g_informer.py",
+    "output_directory": "G_seed99_horizon1",
+    "command": "python seed099_horizon01_g_informer.py"
+  },
+  {
+    "job_index": 163,
+    "job_id": "seed099_horizon01_ST_Informer",
+    "seed": 99,
+    "horizon": 1,
+    "model": "ST-Informer",
+    "script": "seed099_horizon01_st_informer.py",
+    "output_directory": "ST_seed99_horizon1",
+    "command": "python seed099_horizon01_st_informer.py"
+  },
+  {
+    "job_index": 164,
+    "job_id": "seed099_horizon01_Informer",
+    "seed": 99,
+    "horizon": 1,
+    "model": "Informer",
+    "script": "seed099_horizon01_informer.py",
+    "output_directory": "Informer_seed99_horizon1",
+    "command": "python seed099_horizon01_informer.py"
+  },
+  {
+    "job_index": 165,
+    "job_id": "seed099_horizon01_GRU",
+    "seed": 99,
+    "horizon": 1,
+    "model": "GRU",
+    "script": "seed099_horizon01_gru.py",
+    "output_directory": "GRU_seed99_horizon1",
+    "command": "python seed099_horizon01_gru.py"
+  },
+  {
+    "job_index": 166,
+    "job_id": "seed099_horizon01_Transformer",
+    "seed": 99,
+    "horizon": 1,
+    "model": "Transformer",
+    "script": "seed099_horizon01_transformer.py",
+    "output_directory": "Transformer_seed99_horizon1",
+    "command": "python seed099_horizon01_transformer.py"
+  },
+  {
+    "job_index": 167,
+    "job_id": "seed099_horizon01_ConvLSTM",
+    "seed": 99,
+    "horizon": 1,
+    "model": "ConvLSTM",
+    "script": "seed099_horizon01_convlstm.py",
+    "output_directory": "ConvLSTM_seed99_horizon1",
+    "command": "python seed099_horizon01_convlstm.py"
+  },
+  {
+    "job_index": 168,
+    "job_id": "seed099_horizon01_CNN_LSTM",
+    "seed": 99,
+    "horizon": 1,
+    "model": "CNN-LSTM",
+    "script": "seed099_horizon01_cnn_lstm.py",
+    "output_directory": "CNN-LSTM_seed99_horizon1",
+    "command": "python seed099_horizon01_cnn_lstm.py"
+  },
+  {
+    "job_index": 169,
+    "job_id": "seed099_horizon03_STG_Informer",
+    "seed": 99,
+    "horizon": 3,
+    "model": "STG-Informer",
+    "script": "seed099_horizon03_stg_informer.py",
+    "output_directory": "STG_seed99_horizon3",
+    "command": "python seed099_horizon03_stg_informer.py"
+  },
+  {
+    "job_index": 170,
+    "job_id": "seed099_horizon03_G_Informer",
+    "seed": 99,
+    "horizon": 3,
+    "model": "G-Informer",
+    "script": "seed099_horizon03_g_informer.py",
+    "output_directory": "G_seed99_horizon3",
+    "command": "python seed099_horizon03_g_informer.py"
+  },
+  {
+    "job_index": 171,
+    "job_id": "seed099_horizon03_ST_Informer",
+    "seed": 99,
+    "horizon": 3,
+    "model": "ST-Informer",
+    "script": "seed099_horizon03_st_informer.py",
+    "output_directory": "ST_seed99_horizon3",
+    "command": "python seed099_horizon03_st_informer.py"
+  },
+  {
+    "job_index": 172,
+    "job_id": "seed099_horizon03_Informer",
+    "seed": 99,
+    "horizon": 3,
+    "model": "Informer",
+    "script": "seed099_horizon03_informer.py",
+    "output_directory": "Informer_seed99_horizon3",
+    "command": "python seed099_horizon03_informer.py"
+  },
+  {
+    "job_index": 173,
+    "job_id": "seed099_horizon03_GRU",
+    "seed": 99,
+    "horizon": 3,
+    "model": "GRU",
+    "script": "seed099_horizon03_gru.py",
+    "output_directory": "GRU_seed99_horizon3",
+    "command": "python seed099_horizon03_gru.py"
+  },
+  {
+    "job_index": 174,
+    "job_id": "seed099_horizon03_Transformer",
+    "seed": 99,
+    "horizon": 3,
+    "model": "Transformer",
+    "script": "seed099_horizon03_transformer.py",
+    "output_directory": "Transformer_seed99_horizon3",
+    "command": "python seed099_horizon03_transformer.py"
+  },
+  {
+    "job_index": 175,
+    "job_id": "seed099_horizon03_ConvLSTM",
+    "seed": 99,
+    "horizon": 3,
+    "model": "ConvLSTM",
+    "script": "seed099_horizon03_convlstm.py",
+    "output_directory": "ConvLSTM_seed99_horizon3",
+    "command": "python seed099_horizon03_convlstm.py"
+  },
+  {
+    "job_index": 176,
+    "job_id": "seed099_horizon03_CNN_LSTM",
+    "seed": 99,
+    "horizon": 3,
+    "model": "CNN-LSTM",
+    "script": "seed099_horizon03_cnn_lstm.py",
+    "output_directory": "CNN-LSTM_seed99_horizon3",
+    "command": "python seed099_horizon03_cnn_lstm.py"
+  },
+  {
+    "job_index": 177,
+    "job_id": "seed099_horizon06_STG_Informer",
+    "seed": 99,
+    "horizon": 6,
+    "model": "STG-Informer",
+    "script": "seed099_horizon06_stg_informer.py",
+    "output_directory": "STG_seed99_horizon6",
+    "command": "python seed099_horizon06_stg_informer.py"
+  },
+  {
+    "job_index": 178,
+    "job_id": "seed099_horizon06_G_Informer",
+    "seed": 99,
+    "horizon": 6,
+    "model": "G-Informer",
+    "script": "seed099_horizon06_g_informer.py",
+    "output_directory": "G_seed99_horizon6",
+    "command": "python seed099_horizon06_g_informer.py"
+  },
+  {
+    "job_index": 179,
+    "job_id": "seed099_horizon06_ST_Informer",
+    "seed": 99,
+    "horizon": 6,
+    "model": "ST-Informer",
+    "script": "seed099_horizon06_st_informer.py",
+    "output_directory": "ST_seed99_horizon6",
+    "command": "python seed099_horizon06_st_informer.py"
+  },
+  {
+    "job_index": 180,
+    "job_id": "seed099_horizon06_Informer",
+    "seed": 99,
+    "horizon": 6,
+    "model": "Informer",
+    "script": "seed099_horizon06_informer.py",
+    "output_directory": "Informer_seed99_horizon6",
+    "command": "python seed099_horizon06_informer.py"
+  },
+  {
+    "job_index": 181,
+    "job_id": "seed099_horizon06_GRU",
+    "seed": 99,
+    "horizon": 6,
+    "model": "GRU",
+    "script": "seed099_horizon06_gru.py",
+    "output_directory": "GRU_seed99_horizon6",
+    "command": "python seed099_horizon06_gru.py"
+  },
+  {
+    "job_index": 182,
+    "job_id": "seed099_horizon06_Transformer",
+    "seed": 99,
+    "horizon": 6,
+    "model": "Transformer",
+    "script": "seed099_horizon06_transformer.py",
+    "output_directory": "Transformer_seed99_horizon6",
+    "command": "python seed099_horizon06_transformer.py"
+  },
+  {
+    "job_index": 183,
+    "job_id": "seed099_horizon06_ConvLSTM",
+    "seed": 99,
+    "horizon": 6,
+    "model": "ConvLSTM",
+    "script": "seed099_horizon06_convlstm.py",
+    "output_directory": "ConvLSTM_seed99_horizon6",
+    "command": "python seed099_horizon06_convlstm.py"
+  },
+  {
+    "job_index": 184,
+    "job_id": "seed099_horizon06_CNN_LSTM",
+    "seed": 99,
+    "horizon": 6,
+    "model": "CNN-LSTM",
+    "script": "seed099_horizon06_cnn_lstm.py",
+    "output_directory": "CNN-LSTM_seed99_horizon6",
+    "command": "python seed099_horizon06_cnn_lstm.py"
+  },
+  {
+    "job_index": 185,
+    "job_id": "seed099_horizon09_STG_Informer",
+    "seed": 99,
+    "horizon": 9,
+    "model": "STG-Informer",
+    "script": "seed099_horizon09_stg_informer.py",
+    "output_directory": "STG_seed99_horizon9",
+    "command": "python seed099_horizon09_stg_informer.py"
+  },
+  {
+    "job_index": 186,
+    "job_id": "seed099_horizon09_G_Informer",
+    "seed": 99,
+    "horizon": 9,
+    "model": "G-Informer",
+    "script": "seed099_horizon09_g_informer.py",
+    "output_directory": "G_seed99_horizon9",
+    "command": "python seed099_horizon09_g_informer.py"
+  },
+  {
+    "job_index": 187,
+    "job_id": "seed099_horizon09_ST_Informer",
+    "seed": 99,
+    "horizon": 9,
+    "model": "ST-Informer",
+    "script": "seed099_horizon09_st_informer.py",
+    "output_directory": "ST_seed99_horizon9",
+    "command": "python seed099_horizon09_st_informer.py"
+  },
+  {
+    "job_index": 188,
+    "job_id": "seed099_horizon09_Informer",
+    "seed": 99,
+    "horizon": 9,
+    "model": "Informer",
+    "script": "seed099_horizon09_informer.py",
+    "output_directory": "Informer_seed99_horizon9",
+    "command": "python seed099_horizon09_informer.py"
+  },
+  {
+    "job_index": 189,
+    "job_id": "seed099_horizon09_GRU",
+    "seed": 99,
+    "horizon": 9,
+    "model": "GRU",
+    "script": "seed099_horizon09_gru.py",
+    "output_directory": "GRU_seed99_horizon9",
+    "command": "python seed099_horizon09_gru.py"
+  },
+  {
+    "job_index": 190,
+    "job_id": "seed099_horizon09_Transformer",
+    "seed": 99,
+    "horizon": 9,
+    "model": "Transformer",
+    "script": "seed099_horizon09_transformer.py",
+    "output_directory": "Transformer_seed99_horizon9",
+    "command": "python seed099_horizon09_transformer.py"
+  },
+  {
+    "job_index": 191,
+    "job_id": "seed099_horizon09_ConvLSTM",
+    "seed": 99,
+    "horizon": 9,
+    "model": "ConvLSTM",
+    "script": "seed099_horizon09_convlstm.py",
+    "output_directory": "ConvLSTM_seed99_horizon9",
+    "command": "python seed099_horizon09_convlstm.py"
+  },
+  {
+    "job_index": 192,
+    "job_id": "seed099_horizon09_CNN_LSTM",
+    "seed": 99,
+    "horizon": 9,
+    "model": "CNN-LSTM",
+    "script": "seed099_horizon09_cnn_lstm.py",
+    "output_directory": "CNN-LSTM_seed99_horizon9",
+    "command": "python seed099_horizon09_cnn_lstm.py"
+  },
+  {
+    "job_index": 193,
+    "job_id": "seed099_horizon12_STG_Informer",
+    "seed": 99,
+    "horizon": 12,
+    "model": "STG-Informer",
+    "script": "seed099_horizon12_stg_informer.py",
+    "output_directory": "STG_seed99_horizon12",
+    "command": "python seed099_horizon12_stg_informer.py"
+  },
+  {
+    "job_index": 194,
+    "job_id": "seed099_horizon12_G_Informer",
+    "seed": 99,
+    "horizon": 12,
+    "model": "G-Informer",
+    "script": "seed099_horizon12_g_informer.py",
+    "output_directory": "G_seed99_horizon12",
+    "command": "python seed099_horizon12_g_informer.py"
+  },
+  {
+    "job_index": 195,
+    "job_id": "seed099_horizon12_ST_Informer",
+    "seed": 99,
+    "horizon": 12,
+    "model": "ST-Informer",
+    "script": "seed099_horizon12_st_informer.py",
+    "output_directory": "ST_seed99_horizon12",
+    "command": "python seed099_horizon12_st_informer.py"
+  },
+  {
+    "job_index": 196,
+    "job_id": "seed099_horizon12_Informer",
+    "seed": 99,
+    "horizon": 12,
+    "model": "Informer",
+    "script": "seed099_horizon12_informer.py",
+    "output_directory": "Informer_seed99_horizon12",
+    "command": "python seed099_horizon12_informer.py"
+  },
+  {
+    "job_index": 197,
+    "job_id": "seed099_horizon12_GRU",
+    "seed": 99,
+    "horizon": 12,
+    "model": "GRU",
+    "script": "seed099_horizon12_gru.py",
+    "output_directory": "GRU_seed99_horizon12",
+    "command": "python seed099_horizon12_gru.py"
+  },
+  {
+    "job_index": 198,
+    "job_id": "seed099_horizon12_Transformer",
+    "seed": 99,
+    "horizon": 12,
+    "model": "Transformer",
+    "script": "seed099_horizon12_transformer.py",
+    "output_directory": "Transformer_seed99_horizon12",
+    "command": "python seed099_horizon12_transformer.py"
+  },
+  {
+    "job_index": 199,
+    "job_id": "seed099_horizon12_ConvLSTM",
+    "seed": 99,
+    "horizon": 12,
+    "model": "ConvLSTM",
+    "script": "seed099_horizon12_convlstm.py",
+    "output_directory": "ConvLSTM_seed99_horizon12",
+    "command": "python seed099_horizon12_convlstm.py"
+  },
+  {
+    "job_index": 200,
+    "job_id": "seed099_horizon12_CNN_LSTM",
+    "seed": 99,
+    "horizon": 12,
+    "model": "CNN-LSTM",
+    "script": "seed099_horizon12_cnn_lstm.py",
+    "output_directory": "CNN-LSTM_seed99_horizon12",
+    "command": "python seed099_horizon12_cnn_lstm.py"
+  }
+]
